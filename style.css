@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;main-content100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+    height: 390px;
+    /* border: 2px solid red; */
+}
+
+.box-left{
+    width: 50%;
+    align-items: center;
+    padding: 80px;
+    
+
+}
+
+.box-left h1{
+    font-weight: 300;
+}
+
+.box-left p{
+    margin: 10px 0px 10px 0px;
+    line-height: 20px;
+    
+}
+
+.btn{
+    background-color: rgb(56, 175, 255);
+    border-radius: 20px ;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: none;
+
+}
+
+.iphoneImg img{
+    height: 500px;
+    padding: 50px;
+}
+
+.statics h1{
+    text-align: center;
+    color: aquamarine;
+    font-weight: 300;
+}
+
+.statics h3{
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+.statics p{
+    text-align: center;
+    color: white;
+}
+
+.statics{
+    padding: auto;
+    margin:20px ;
+}
+
+.our-mision h1{
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 300;
+}
+
+.our-mision p{
+    text-align: center;
+    font-weight: 300;
+}
+
+.our-mision button{
+    text-align: center;
+    margin: 20px 600px 100px;
+}
+
+
+
+
+
+
+.main-content1{
+    background-image: url(assets/bg.jpg);
+    display: flex;
+    /* padding: 200px 20px 200px 20px ; */
+    align-items: center;
+    padding-left: 150px;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-content{
+    background-image: url(assets/bg.jpg);
+    height: 100vh;
+    /* display: flex; */
+}
+
+.footer-content h1{
+    text-align: center;
+    padding-top: 170px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    color: white;
+}
+
+.footer-content p{
+    text-align: center;
+    color: white;
+}
+
+/* .boxl{
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    border: 2px dashed white;
+} */
+
+.imImge{
+    display: flex;
+    align-items: center;
+}
+
+.boxl{
+    border: 2px dashed white;
+    align-items: center;
+    /* width: 370px; */
+    margin: 20px 0px 20px 280px;
+}
+
+.boxr{
+    
+    border: 2px dashed white;
+    align-items: center;
+    /* width: 370px; */
+    margin: 20px 20px 20px ;
+}
+
+.boxl h1{
+    padding: 85px;
+}
+
+.boxr h1{
+    padding: 85px;
+}
